@@ -21,11 +21,22 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
 <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+<!-- GTranslate: https://gtranslate.io/ -->
+<script type="text/javascript">
+window.gtranslateSettings = {
+    "default_language": "en",
+    "languages": ["en","fr"],
+    "wrapper_selector": ".gtranslate_wrapper",
+    "flag_style": "3d",
+    "alt_flags": {"en": "usa"}
+}
+</script>
+<script src="https://cdn.gtranslate.net/widgets/latest/float.js" defer></script>
 </head>
 
 <body>
-
-<div class="page-wrapper">
+    <div class="gtranslate_wrapper"></div>
+    <div class="page-wrapper">
  	
     <!-- Preloader -->
     <div class=""></div>
@@ -54,13 +65,7 @@
                             <li><a href="#">Feedback</a></li>
                             <li><a href="#">Updates</a></li>
                             <!--Language-->
-                            <li class="language dropdown"><a class="btn btn-default dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" href="#"><span class="flag-img"><img src="images/icons/flag.jpg" alt="" /></span>English &nbsp;<span class="fa fa-angle-down"></span></a>
-                                <ul class="dropdown-menu style-one" aria-labelledby="dropdownMenu2">
-                                    <li><a href="#">English</a></li>
-                                    <li><a href="#">French</a></li>
-                                    
-                                </ul>
-                            </li>
+
                         </ul>                        
                     </div>
                     
@@ -95,15 +100,15 @@
                             
                             <div class="navbar-collapse collapse clearfix">
                                 <ul class="navigation clearfix">
-                                    <li class="current dropdown"><a href="index.html">Home</a>
+                                    <li class="current dropdown"><a href="index.html" data-translate="Home">Home</a>
                                     	
                                     </li>
-                                    <li><a href="about.html">About us</a></li>
-                                    <li class="dropdown"><a href="market-sectors.html">Market Sectors</a>
+                                    <li><a href="about.html" data-translate="About Us">About Us</a></li>
+                                    <li class="dropdown"><a href="market-sectors.html" data-translate="Market Sectors">Market Sectors</a>
                                     	
                                     </li>
 
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="contact.html" data-translate="Contact">Contact</a></li>
                                  </ul>
                             </div>
                         </nav>
@@ -198,17 +203,17 @@
                             
                             <div class="navbar-collapse collapse clearfix">
                                 <ul class="navigation clearfix">
-                                    <li class="current dropdown"><a href="index.html">Home</a>
+                                    <li class="current dropdown"><a href="index.html" data-translate="Home">Home</a>
                                     
                                     </li>
-                                    <li class="dropdown"><a href="about.html">About Us</a>
+                                    <li class="dropdown"><a href="about.html" data-translate="About Us">About Us</a>
                                     
                                     </li>
-                                    <li class="dropdown"><a href="market-sectors.html">Market Sectors</a>
+                                    <li class="dropdown"><a href="market-sectors.html" data-translate="Market Sectors">Market Sectors</a>
                                     
                                     </li>
 
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="contact.html" data-translate="Contact">Contact</a></li>
                                  </ul>
                             </div>
                         </nav>
@@ -451,7 +456,7 @@
                             </div>
                             <div class="lower-content">
                                 <div class="content-inner">
-                                    <div class="text">We prioritize on-time deliveries to ensure our clients’ projects stay on schedule.</div>
+                                    <div class="text">We prioritize on-time deliveries to ensure our clients' projects stay on schedule.</div>
                                     <a href="market-single.html" class="know-more">Know More <span class="icon flaticon-right-arrow-1"></span></a>
                                 </div>
                             </div>
@@ -991,6 +996,8 @@
 <script src="js/wow.js"></script>
 <script src="js/appear.js"></script>
 <script src="js/script.js"></script>
+<script src="js/translations.js"></script>
+<script src="js/language.js"></script>
 
 </body>
 
